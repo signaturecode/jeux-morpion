@@ -29,7 +29,7 @@ sonjeu.addEventListener('click',function(){
     son=!son
     if(son){
 
-        music.src="applaudissement.wav"
+        music.src="music/son-jeux.mp3"
         music.play()
     }else{
         music.pause();
@@ -57,7 +57,7 @@ document.querySelectorAll(".case").forEach(cell=>
         
   function gestionCase(){
     
-    beep.src="beep.wav"
+    beep.src="music/beep.wav"
     beep.play()
      const indexCase= parseInt(this.dataset.index) 
  if(jeuxInitial[indexCase] !="" || !etatJeu){
@@ -88,7 +88,7 @@ document.querySelectorAll(".case").forEach(cell=>
       }
       if(tourgagnant){
         
-        beep.src="applaudissement.wav"
+        beep.src="music/applaudissement.wav"
         beep.play()
         h2.className="ga"
           h2.style.color="rgb(245, 241, 0)"

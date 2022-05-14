@@ -1,10 +1,15 @@
 body{
     text-align: center;
     background-color: rgb(29, 27, 27);
-    background-image: url("c.JPG");
+    background-image: url("images/c.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #jeu{
